@@ -11,7 +11,7 @@ autoUpdater.autoInstallOnAppQuit = true;
 
 function createWindow() {
   curWindow = new MainScreen();
-}
+}    
 
 app.whenReady().then(() => {
   createWindow();
